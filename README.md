@@ -1,19 +1,20 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Transpoint
 Trabalho desenvolvido durante a disciplina de BD
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-seu_nome:seu_email@dominio.com<br>
-segundo_nome:segundo_email@dominio.com<br>
+André Martins: objetovazio@gmail.com<br>
+Elimar Macena: elimar.macena@gmail.com<br>
+Hellesandro Gonzaga: hellesandro@hotmail.com<br>
+Serenna Ferrari: serenna.ferrari@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados Transpoint 
+<br>e com a motivação de facilitar o uso do transporte público. <br>
 
 ### 3.MINI-MUNDO<br>
-
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
@@ -21,9 +22,7 @@ cujos elementos são propriedades que desejamos incluir, processar, armazenar,
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas. (https://goo.gl/nYY4Zk)<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
