@@ -27,7 +27,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-   ![Alt text](http://imgur.com/EIYieOr "Tabela")
+   <a href="http://imgur.com/EIYieOr"><img src="http://i.imgur.com/EIYieOr.png" title="source: imgur.com" /></a>
    
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
