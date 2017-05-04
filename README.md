@@ -15,11 +15,22 @@ Este documento contém a especificação do projeto do banco de dados Transpoint
 <br>e com a motivação de facilitar o uso do transporte público. <br>
 
 ### 3.MINI-MUNDO<br>
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+&emsp; Hoje em dia para efetuar uma recarga no cartão da rede Transcol é preciso deslocar-se até um dos centros de venda e enfrentar filas. Além disso, para grande parte dos usuários do sistema Transcol, sair de casa e utilizar dos coletivos para deslocar-se até outro ponto é de difícil planejamento, pois por diversas vezes os horários não são seguidos corretamente, seja por decorrência do trânsito ou devido a outras ocorrências. Assim, torna-se complicado planejar-se de uma maneira mais eficiente. <br><br>
+&emsp; O TransPoint vem com as seguintes ideias para lidar com esses problemas:
+<ul>
+   <li> 
+      Oferecer a facilidade de reunir todas as informações do usuário, consultar seu saldo de passagens e categoria de usuário, recarga diretamente pelo aplicativo, checar horários e localização aproximada dos coletivos. Assim, os usuários podem planejar-se e poupar tempo, no momento que não é mais necessário deslocar-se para um guichê de vendas.
+   </li>
+   <li> 
+      Pagar passagem via NFC, com objetivo de oferecer outra forma de pagar além do cartão de passagem e também de trazer a tona o uso dessa tecnologia para pagamentos.
+   </li>
+   <li> 
+      Itinerários dos ônibus de modo mais visual ao exibir as rotas em um mapa, ao invés de apenas os nomes das vias que o coletivo passa.
+   </li>
+   <li>Previsões aproximadas de tempo de chegada de um ônibus em determinado ponto.</li>
+</ul><br>
+&emsp; O planejamento e otimização de tempo é um dos principais pontos que o aplicativo busca atender, pois será possível planejar melhor o tempo com as previsões e agilidade ao efetuar recargas online. Além de também servir como um incentivo para a utilização de ônibus.
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas. (https://goo.gl/nYY4Zk)<br>
