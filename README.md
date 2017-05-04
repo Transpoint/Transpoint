@@ -33,7 +33,8 @@ Este documento contém a especificação do projeto do banco de dados Transpoint
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas. (https://goo.gl/nYY4Zk)<br>
+Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.
+[embed] https://github.com/Transpoint/TranspointProject/blob/master/Transpoint.pdf [/embed]<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
    <a href="http://imgur.com/EIYieOr"><img src="http://i.imgur.com/EIYieOr.png" title="source: imgur.com" /></a>
