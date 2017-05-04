@@ -66,7 +66,31 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+PESSOA: Tabela que armazena informações referente aos usuários do aplicativo.<br>
+	COD_CLIENTE: (CHAVE PRIMARIA) Campo que armazena um número único identificador da pessoa.<br>
+	NOME_PESSOA: Campo que armazena o nome da pessoa.<br>
+	CPF_PESSOA: Campo que armazena o número de Cadastro de Pessoa Física para cada usuário.<br>
+	DATA_NASC: Campo que armazena a data de nascimento do usuário.<br>
+	<br>
+MODALIDADE: Tabela que armazena informações de classes que cada usuário pertence.<br>
+	COD_MOD: (CHAVE PRIMÁRIA) Campo que armazena um número único identicador das modalidadee existentes.<br>
+	MODALIDADE: Campo que armazena a identificação por nome de cada modalidade.<br>
+	USO_MAX_DIA: Campo que armazena a quantidade de utilizações permitidas para cada modalidade.<br>
+<br>
+INSITUICOES: Tabela que armazena informações relacionadas as instituições.<br>
+	COD_INST: Campo que armazena um número único que representa uma instituição válida aplicação das modalidades.<br>
+	INST: Campo que armazena o nome das instituições.<br>
+	<br>
+HISTORICO_SALDO: Tabela que armazena informações relevantes do saldo do usuário.<br>
+	COD_CLIENTE: (CHAVE ESTRANGEIRA) Campo que armazena um número único identificador da pessoa.<br>
+	PROX_COMPRA: Campo que armazena a data de liberação da proxima compra.<br>
+	ULTIMA_COMPRA: Campo que armazena a data da ultima compra efetuada.<br>
+	SALDO: Campo que armazena o saldo atual do usuário.<br>
+<br>
+CODIGO_MODALIDADE: Tabela que armazena informações relacionadas ao usuário e linhas de acordo com a modalidade.<br>
+	COD_CLIENTE: (CHAVE ESTRANGEIRA) Campo que armazena um número único identificador da pessoa.<br>
+	COD_MOD: (CHAVE ESTRANGEIRA) Campo que armazena um número único identicador das modalidadee existentes.<br>
+	COL_ACC: Campo que armazena as linhas habilitadas para cada usuário.<br>
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
