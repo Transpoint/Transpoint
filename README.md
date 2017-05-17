@@ -49,8 +49,8 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
         e tuplas falsas
     
 #### 5.1 Validação do Modelo Conceitual
-    [IPAO]: [Yan de Paula, Lucas Gome, Tadeu da Penha, Ewerson Vieira]
-    [GeMan]: [Gabriel Marchezi,Helen França, Olavo Curátola]
+    [IPAO]: [Yan de Paula, Lucas Gomes, Tadeu da Penha, Ewerson Vieira]
+    [GeMan]: [Gabriel Marchezi, Helen França, Olavo Curátola]
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
