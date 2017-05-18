@@ -40,7 +40,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
    
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelo%20ER.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/TranspointConceito.PNG "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
