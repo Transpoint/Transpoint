@@ -67,31 +67,40 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 PESSOA: Tabela que armazena informações referente aos usuários do aplicativo.<br>
-	COD_CLIENTE: (CHAVE PRIMARIA) Campo que armazena um número único identificador da pessoa.<br>
+	COD_PESSOA: (CHAVE PRIMARIA) Campo que armazena um número único identificador da pessoa.<br>
 	NOME_PESSOA: Campo que armazena o nome da pessoa.<br>
 	CPF_PESSOA: Campo que armazena o número de Cadastro de Pessoa Física para cada usuário.<br>
-	DATA_NASC: Campo que armazena a data de nascimento do usuário.<br>
+	DATA_NASCIMENTO: Campo que armazena a data de nascimento do usuário.<br>
+	MODALIDADE: Campo que armazena um número que identifica a modalidade da pessoa.<br>
 	<br>
 MODALIDADE: Tabela que armazena informações de classes que cada usuário pertence.<br>
-	COD_MOD: (CHAVE PRIMÁRIA) Campo que armazena um número único identicador das modalidadee existentes.<br>
-	MODALIDADE: Campo que armazena a identificação por nome de cada modalidade.<br>
-	USO_MAX_DIA: Campo que armazena a quantidade de utilizações permitidas para cada modalidade.<br>
+	COD_MODALIDADE: (CHAVE PRIMÁRIA) Campo que armazena um número único identicador das modalidadee existentes.<br>
+	NOME_MODALIDADE: Campo que armazena a identificação por nome de cada modalidade.<br>
+	LIMITE_USO: Campo que armazena a quantidade de utilizações permitidas para cada modalidade.<br>
 <br>
-INSITUICOES: Tabela que armazena informações relacionadas as instituições.<br>
-	COD_INST: Campo que armazena um número único que representa uma instituição válida aplicação das modalidades.<br>
-	INST: Campo que armazena o nome das instituições.<br>
-	<br>
 HISTORICO_SALDO: Tabela que armazena informações relevantes do saldo do usuário.<br>
-	COD_CLIENTE: (CHAVE ESTRANGEIRA) Campo que armazena um número único identificador da pessoa.<br>
-	PROX_COMPRA: Campo que armazena a data de liberação da proxima compra.<br>
-	ULTIMA_COMPRA: Campo que armazena a data da ultima compra efetuada.<br>
+	COD_SALDO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do saldo.<br>
+	LIB_PROX_COMPRA: Campo que armazena a data de liberação da proxima compra.<br>
+	ULT_COMPRA: Campo que armazena a data da ultima compra efetuada.<br>
 	SALDO: Campo que armazena o saldo atual do usuário.<br>
 <br>
-CODIGO_MODALIDADE: Tabela que armazena informações relacionadas ao usuário e linhas de acordo com a modalidade.<br>
-	COD_CLIENTE: (CHAVE ESTRANGEIRA) Campo que armazena um número único identificador da pessoa.<br>
-	COD_MOD: (CHAVE ESTRANGEIRA) Campo que armazena um número único identicador das modalidadee existentes.<br>
-	COL_ACC: Campo que armazena as linhas habilitadas para cada usuário.<br>
-
+PGT_PASSAGEM: Tabela que armazena informações relacionadas a passagens pagas.<br>
+	COD_PAGAMENTO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do pagamento.<br>
+	SALDO_ANTERIOR: Campo que armazena o saldo antes do pagamento da passagem.<br>
+	PAG_DATA: Campo que armazena a data do pagamento.<br>
+	COD_COLETIVO: Campo que armazena informações do ônibus em que foi efetuado o pagamento.<br>
+	<br>
+LOCAL_COLETIVO: Tabela que armazena informações da localização dos ônibus.<br>
+	COD_LOCALIZACAO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do ônibus.<br>
+	COORDENADAS: Campo que armazena informações de coordenadas do ônibus.<br>
+	COD_COLETIVO: Campo que armazena informações do ônibus em que foi efetuado o pagamento.<br>
+<br>
+COLETIVO: Tabela que armazena informações do ônibus.<br>
+	COD_COL: Campo que armazena um número único identificador dos ônibus.<br>
+	COL_LINHA: Campo que armazena o número da linha do ônibus.<br>
+	COL_PARTIDA: Campo que armazena a partida do ônibus.<br>
+	COL_DESTINO: Campo que armazena o destino do ônibus.<br>
+	<br>
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
