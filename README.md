@@ -108,12 +108,8 @@ COLETIVO: Tabela que armazena informações do ônibus.<br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelo%20Logico.PNG "Modelo Conceitual")
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
-        
-        
-        
-        Entrega até este ponto em: (Data a ser definida)
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_MODELO_FISICO.sql"> Modelo físico </a><br>
+       
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
