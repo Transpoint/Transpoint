@@ -113,9 +113,9 @@ COLETIVO: Tabela que armazena informações do ônibus.<br>
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Geramos os dados de forma aleatória pelo seguinte link: http://pt.fakenamegenerator.com/
-	Não utilizamos nenhum código previamente pronto e desenvolvemos nosso projeto a partir de situações
-	cotidianas.
+Geramos os dados de forma aleatória pelo seguinte link: http://pt.fakenamegenerator.com/
+Não utilizamos nenhum código previamente pronto e desenvolvemos nosso projeto a partir de situações
+cotidianas.
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
