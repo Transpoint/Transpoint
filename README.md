@@ -113,11 +113,9 @@ COLETIVO: Tabela que armazena informações do ônibus.<br>
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        Geramos os dados de forma aleatória pelo seguinte link: http://pt.fakenamegenerator.com/
+	Não utilizamos nenhum código previamente pronto e desenvolvemos nosso projeto a partir de situações
+	cotidianas.
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
