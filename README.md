@@ -121,8 +121,7 @@ COLETIVO: Tabela que armazena informações do ônibus.<br>
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_INSERT.sql"> Insert de dados ao modelo físico </a><br>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
