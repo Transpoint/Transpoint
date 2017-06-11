@@ -129,12 +129,12 @@ cotidianas.
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PESSOA.png"> </a><br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20COLETIVO.png"> </a><br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20MODALIDADE.png"> </a><br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20HISTORICO_SALDO.png"> </a><br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PGT_PASSAGEM.png"> </a><br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20LOCAL_COLETIVO.png"> </a><br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PESSOA.png "Tabela Pessoa") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20COLETIVO.png "Tabela Coletivo") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20MODALIDADE.png "Tabela Modalidade") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20HISTORICO_SALDO.png "Tabela Historico_Saldo") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PGT_PASSAGEM.png "Tabela Pgt_Passagem") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20LOCAL_COLETIVO.png "Tabela Local_Coletivo") <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
