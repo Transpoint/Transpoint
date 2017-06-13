@@ -140,6 +140,9 @@ cotidianas.
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20pessoa%202.png "9.2 consulta 2") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20coletivo%201.png "9.2 consulta 3") <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20historico%20saldo.png "9.3 consulta 1") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.png "9.3 consulta 2") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20concat.png "9.3 consulta 3") <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
