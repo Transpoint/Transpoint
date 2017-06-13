@@ -54,7 +54,6 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
-    
     EXEMPLO:
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
@@ -82,6 +81,7 @@ Tabela HISTORICO_SALDO: Tabela que armazena informações relevantes do saldo do
 <br>
 Tabela PGT_PASSAGEM: Tabela que armazena informações relacionadas a passagens pagas.<br>
 &emsp;	COD_PAGAMENTO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do pagamento.<br>
+&emsp;	COD_PESSOA: Campo que armazena o codigo do cliente, pessoa, que efetuou o pagamento.<br>
 &emsp;	SALDO_ANTERIOR: Campo que armazena o saldo antes do pagamento da passagem.<br>
 &emsp;	PAG_DATA: Campo que armazena a data do pagamento.<br>
 &emsp;	COD_COLETIVO: Campo que armazena informações do ônibus em que foi efetuado o pagamento.<br>
