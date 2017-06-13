@@ -148,6 +148,9 @@ cotidianas.
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.png "9.3 consulta 2") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20concat.png "9.3 consulta 3") <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_1.png "9.4 consulta 1") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_2.png "9.4 consulta 2") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_3.png "9.4 consulta 3") <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
