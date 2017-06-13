@@ -53,11 +53,15 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     [GeMan]: [Gabriel Marchezi, Helen França, Olavo Curátola]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    
+   Campos iniciados com "COD": nos campos destinados ao código, optamos pelo tipo serial funcionando assim como um campo identificador (utilizado como chave primária). <br>
+    Campos destinados para "Nome", COL_LINHA, COL_PARTIDA e COL_DESTINO: Foi usado o tipo varchar pois nomes não possuem um tamanho médio/fixo, usando o varchar o tamanho ficaria igual ao nome dentro da 'variável'. <br>
+    Campos ULT_COMPRA, PROX_COMPRA, DATA_NASCIMENTO, PAG_DATA: optamos por usar o tipo DATE pois é um padrão para datas, no caso de "ULT_COMPRA/PROX_COMPRA" este tipo é útil para uso de funções para calcular a data que a recarga é liberada.<br>
+    Campo Coordenadas:  A utilização de varchar é justificada pela opção de usar coordenadas geográficas para localização dos coletivos ao invés de endereços em si, facilitando a manipulação e evitando conflitos com nomes de ruas iguais em pontos diferentes. <br>
+    Campos de Saldo: Optamos usar o tipo Numeric visto que se trata de dinheiro, podendo ter números após a vírgula (centavos). <br>
+    Campo Limite_Uso: Cada modalidade tem um número definido de uso do cartão, o  tipo int atende perfeitamente a necessidade. <br>
+    Campo CPF: Usamos um varchar para casos em que o CPF seja antigo ou chegue o momento que tenha que ser acrescentado mais um número. <br>
+    
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
