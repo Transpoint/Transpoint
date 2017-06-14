@@ -122,14 +122,7 @@ cotidianas.
 <a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_INSERT.sql"> Insert de dados ao modelo físico </a><br>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        
-        
-        Entrega até este ponto em: (Data a ser definida)
-
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_DATEBASE_AND_BACKUP.sql"> Dados e backup </a><br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
