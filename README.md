@@ -39,7 +39,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
    <a href="https://github.com/Transpoint/TranspointProject/blob/master/tabelaTransPoint.xlsx"><img src="https://github.com/Transpoint/TranspointProject/blob/master/dados_transpoint.PNG" title="Tabela do sistema" /></a>
    
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO
+    
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20Conceitual/ModeloConceitual2.png "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
@@ -59,12 +59,12 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-Tabela PESSOA: Tabela que armazena informações referente aos usuários do aplicativo.<br>
-&emsp;	COD_PESSOA: (CHAVE PRIMARIA) Campo que armazena um número único identificador da pessoa.<br>
-&emsp;	NOME_PESSOA: Campo que armazena o nome da pessoa.<br>
-&emsp;	CPF_PESSOA: Campo que armazena o número de Cadastro de Pessoa Física para cada usuário.<br>
-&emsp;	DATA_NASCIMENTO: Campo que armazena a data de nascimento do usuário.<br>
-&emsp;	MODALIDADE: Campo que armazena um número que identifica a modalidade da pessoa.<br>
+	Tabela PESSOA: Tabela que armazena informações referente aos usuários do aplicativo.<br>
+	&emsp;	COD_PESSOA: (CHAVE PRIMARIA) Campo que armazena um número único identificador da pessoa.<br>
+	&emsp;	NOME_PESSOA: Campo que armazena o nome da pessoa.<br>
+	&emsp;	CPF_PESSOA: Campo que armazena o número de Cadastro de Pessoa Física para cada usuário.<br>
+	&emsp;	DATA_NASCIMENTO: Campo que armazena a data de nascimento do usuário.<br>
+	&emsp;	MODALIDADE: Campo que armazena um número que identifica a modalidade da pessoa.<br>
 	<br>
 Tabela MODALIDADE: Tabela que armazena informações de classes que cada usuário pertence.<br>
 &emsp;	COD_MODALIDADE: (CHAVE PRIMÁRIA) Campo que armazena um número único identicador das modalidadee existentes.<br>
