@@ -65,20 +65,17 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 		CPF_PESSOA: Campo que armazena o número de Cadastro de Pessoa Física para cada usuário.<br>
 		DATA_NASCIMENTO: Campo que armazena a data de nascimento do usuário.<br>
 		MODALIDADE: Campo que armazena um número que identifica a modalidade da pessoa.<br>
-	<br>
- 
+
 	Tabela MODALIDADE: Tabela que armazena informações de classes que cada usuário pertence.<br>
 		COD_MODALIDADE: (CHAVE PRIMÁRIA) Campo que armazena um número único identicador das modalidadee existentes.<br>
 		NOME_MODALIDADE: Campo que armazena a identificação por nome de cada modalidade.<br>
 		LIMITE_USO: Campo que armazena a quantidade de utilizações permitidas para cada modalidade.<br>
-	<br>
  
 	Tabela HISTORICO_SALDO: Tabela que armazena informações relevantes do saldo do usuário.<br>
 		COD_SALDO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do saldo.<br>
 		LIB_PROX_COMPRA: Campo que armazena a data de liberação da proxima compra.<br>
 		ULT_COMPRA: Campo que armazena a data da ultima compra efetuada.<br>
 		SALDO: Campo que armazena o saldo atual do usuário.<br>
-	<br>
  
 	Tabela PGT_PASSAGEM: Tabela que armazena informações relacionadas a passagens pagas.<br>
 		COD_PAGAMENTO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do pagamento.<br>
@@ -86,32 +83,27 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 		SALDO_ANTERIOR: Campo que armazena o saldo antes do pagamento da passagem.<br>
 		PAG_DATA: Campo que armazena a data do pagamento.<br>
 		COD_COLETIVO: Campo que armazena informações do ônibus em que foi efetuado o pagamento.<br>
-	<br>
  
 	Tabela LOCAL_COLETIVO: Tabela que armazena informações da localização dos ônibus.<br>
 		COD_LOCALIZACAO: (CHAVE PRIMARIA) Campo que armazena um número único identificador do ônibus.<br>
 		COORDENADAS: Campo que armazena informações de coordenadas do ônibus.<br>
 		COD_COLETIVO: Campo que armazena informações do ônibus em que foi efetuado o pagamento.<br>
-	<br>
  
 	Tabela COLETIVO: Tabela que armazena informações do ônibus.<br>
 		COD_COL: Campo que armazena um número único identificador dos ônibus.<br>
 		COL_LINHA: Campo que armazena o número da linha do ônibus.<br>
 		COL_PARTIDA: Campo que armazena a partida do ônibus.<br>
 		COL_DESTINO: Campo que armazena o destino do ônibus.<br>
-	<br>
  	
 	Tabela COLETIVO: Tabela que armazena informações do ônibus.<br>
 		COD_COL: Campo que armazena um número único identificador dos ônibus.<br>
 		COL_LINHA: Campo que armazena o número da linha do ônibus.<br>
 		COL_PARTIDA: Campo que armazena a partida do ônibus.<br>
 		COL_DESTINO: Campo que armazena o destino do ônibus.<br>
-	<br>
  	
 	Tabela BANDEIRA: Tabela que armazena das bandeiras de cartão.<br>
 		cod_bandeira: Campo identificador do registro de bandeira.<br>
 		nome_bandeira: Nome da bandeira de cartão.<br>
-	<br>
  	
 	Tabela CARTAO: Tabela que armazena os dados de um cartão do usuario.<br>
 		cod_cartao: Campo identificador de um cartao.<br>
@@ -120,7 +112,6 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 		cvv: Código de segurança do cartão.<br>
 		nome: Nome do dono do cartão.<br>
 		numero_cartao: Número do cartão do usuário.<br>
-	<br>
 	
 ### 6	MODELO LÓGICO<br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20L%C3%B3gico/ModeloLogico2.png "Modelo Conceitual")
