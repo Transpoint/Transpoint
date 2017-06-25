@@ -40,7 +40,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
    
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/ModeloConceitual.PNG "Modelo Conceitual")
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20Conceitual/ModeloConceitual2.png "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
@@ -99,10 +99,10 @@ Tabela COLETIVO: Tabela que armazena informações do ônibus.<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelo%20Logico.PNG "Modelo Conceitual")
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20L%C3%B3gico/ModeloLogico2.png "Modelo Conceitual")
 
 ### 7	MODELO FÍSICO<br>
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_MODELO_FISICO.sql"> Modelo físico </a><br>
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20Fisico/ModeloFisico2.sql"> Modelo físico </a><br>
        
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
