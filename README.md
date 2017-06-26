@@ -36,7 +36,7 @@ Este documento contém a especificação do projeto do banco de dados Transpoint
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.<a href="https://github.com/Transpoint/TranspointProject/blob/master/Transpoint.pdf"> Mockup </a><br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-   <a href="https://github.com/Transpoint/TranspointProject/blob/master/tabelaTransPoint.xlsx"><img src="https://github.com/Transpoint/TranspointProject/blob/master/dados_transpoint.PNG" title="Tabela do sistema" /></a>
+   <a href="https://github.com/Transpoint/TranspointProject/blob/master/tabelaTransPointF.xlsx"><img src="https://github.com/Transpoint/TranspointProject/blob/master/tabela_transpoint.PNG" title="Tabela do sistema" /></a>
    
 ### 5.MODELO CONCEITUAL<br>
     
