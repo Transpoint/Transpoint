@@ -134,7 +134,7 @@ SELECT cod_cartao FROM CARTAO;
 ETC (Olhem no text do readme);
 ```
 
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PESSOA.png "Tabela Pessoa") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.1.png "Tabela Pessoa") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20COLETIVO.png "Tabela Coletivo") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20MODALIDADE.png "Tabela Modalidade") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20HISTORICO_SALDO.png "Tabela Historico_Saldo") <br>
