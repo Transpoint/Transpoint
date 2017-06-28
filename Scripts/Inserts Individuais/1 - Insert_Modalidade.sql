@@ -1,0 +1,5 @@
+﻿INSERT INTO MODALIDADE (COD_MODALIDADE,NOME_MODALIDADE,LIMITE_USO) VALUES
+(1,'Comum',6),
+(2,'Estudante',6),
+(3,'Gratuidade',2),
+(4,'Idoso',6);
