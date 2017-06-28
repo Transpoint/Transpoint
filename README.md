@@ -134,12 +134,47 @@ SELECT cod_cartao FROM CARTAO;
 ETC (Olhem no text do readme);
 ```
 
+```sql
+SELECT * FROM PESSOA;
+``` 
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.1.png "Tabela Pessoa") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20COLETIVO.png "Tabela Coletivo") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20MODALIDADE.png "Tabela Modalidade") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20HISTORICO_SALDO.png "Tabela Historico_Saldo") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20PGT_PASSAGEM.png "Tabela Pgt_Passagem") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/SELECT%20TUDO%20FROM%20LOCAL_COLETIVO.png "Tabela Local_Coletivo") <br>
+
+```sql
+SELECT * FROM COLETIVO;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.2.png "Tabela Coletivo") <br>
+
+```sql
+SELECT * FROM MODALIDADE;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.3.png "Tabela Modalidade") <br>
+
+```sql
+SELECT * FROM BANDEIRA;
+```
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.4.png "Tabela Bandeira") <br>
+
+```sql
+SELECT * FROM CARTAO;
+```
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.5.png "Tabela Cartão") <br>
+
+```sql
+SELECT * FROM LOCAL_BUS;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.6.png "Tabela Local_Bus") <br>
+
+```sql
+SELECT * FROM HISTORICO_SALDO;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.7.png "Tabela Historico_Saldo") <br>
+
+```sql
+SELECT * FROM PGT_PASSAGEM;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.1/9.1.8.png "Tabela Pgt_Passagem") <br>
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20pessoa%201.png "9.2 consulta 1") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20pessoa%202.png "9.2 consulta 2") <br>
