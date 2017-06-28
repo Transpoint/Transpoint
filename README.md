@@ -128,10 +128,10 @@ cotidianas.
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_INSERT.sql"> Insert de dados ao modelo físico </a><br>
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/Scripts/Insert%20Data%20Transpoint.sql"> Script de insert de dados ao banco. </a><br>
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/TRANSPOINT_DATEBASE_AND_BACKUP.sql"> Dados e backup </a><br>
+<a href="https://github.com/Transpoint/TranspointProject/blob/master/Scripts/Create%20Database%20and%20Insert%20Data.sql"> Script de criação do banco, inserção dos dados e backup das tabelas. </a><br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
