@@ -176,9 +176,27 @@ SELECT * FROM PGT_PASSAGEM;
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20pessoa%201.png "9.2 consulta 1") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20pessoa%202.png "9.2 consulta 2") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.2%20where%20coletivo%201.png "9.2 consulta 3") <br>
+
+```sql
+SELECT * FROM COLETIVO WHERE PARTIDA = 'T. JACARAIPE';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%20-Prints/Consultas%209.2.1.jpg "9.2 Consulta 1") <br>
+
+```sql
+SELECT COD_PESSOA,NOME_PESSOA,DATA_NASC FROM PESSOA WHERE COD_MODALIDADE = 2;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%20-Prints/Consultas%209.2.2.jpg "9.2 Consulta 2") <br>
+
+```sql
+SELECT NOME,CPF,VENCIMENTO,COD_BANDEIRA FROM CARTAO WHERE COD_BANDEIRA = 2 OR COD_BANDEIRA = 4;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%20-Prints/Consultas%209.2.3.jpg "9.2 Consulta 3") <br>
+
+```sql
+SELECT COD_PESSOA,SALDO, ULTIMA_COMPRA FROM HISTORICO_SALDO WHERE LIB_PROX_COMPRA >'2017/07/07' AND LIB_PROX_COMPRA <= '2017/08/21';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%20-Prints/Consultas%209.2.4.jpg "9.2 Consulta 4") <br>
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20historico%20saldo.png "9.3 consulta 1") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.png "9.3 consulta 2") <br>
