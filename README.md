@@ -122,8 +122,8 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-Geramos os dados de forma aleatória pelo seguinte link: http://pt.fakenamegenerator.com/
-Não utilizamos nenhum código previamente pronto e desenvolvemos nosso projeto a partir de situações
+Geramos os dados de forma aleatória pelo seguintes links: <br>http://pt.fakenamegenerator.com/ <br>http://random-date-generator.com/ <br>http://listofrandomnames.com/index.cfm<br> http://www.geomidpoint.com/random/<br>
+<br>Não utilizamos nenhum código previamente pronto e desenvolvemos nosso projeto a partir de situações
 cotidianas.
 
 
