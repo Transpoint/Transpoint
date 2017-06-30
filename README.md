@@ -210,7 +210,7 @@ select * from PGT_PASSAGEM where SALDO_ANTERIOR<=80;
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/PGT_PASSAGEM%20where%20SALDO_ANTERIOR30%20and%20SALDO_ANTERIOR80.png "9.3 consulta 2") <br>
 
 ```sql
-select * from PGT_PASSAGEM where SALDO_ANTERIOR<=80;
+select NOME_PESSOA as Cliente, COD_MODALIDADE as "Atual modalidade", CPF from PESSOA;
 ``` 
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/select%20NOME_PESSOA%20as%20Cliente%20COD_MODALIDADE%20as%20Atual%20modalidade%20CPF%20from%20PESSOA.png "9.3 consulta 3") <br>
 
