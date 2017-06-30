@@ -219,7 +219,7 @@ select NOME_PESSOA as Cliente, COD_MODALIDADE as "Atual modalidade", CPF from PE
 ```sql
 select * from PESSOA where NOME_PESSOA like 'L%';
 ``` 
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas - Prints/Consultas 9.4/select from PESSOA where NOME_PESSOA like 'L%25'.png "9.4 consulta 1") <br>
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.4/ALTERNATIVO1_select%20%20from%20PESSOA%20where%20NOME_PESSOA%20like%20'L%25'.png?raw=true "9.4 consulta 1") <br>
 
 ```sql
 select * from PESSOA where NOME_PESSOA ilike '%La%';
