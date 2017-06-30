@@ -198,9 +198,22 @@ SELECT COD_PESSOA,SALDO, ULTIMA_COMPRA FROM HISTORICO_SALDO WHERE LIB_PROX_COMPR
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%20-Prints/Consultas%209.2.4.jpg "9.2 Consulta 4") <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20historico%20saldo.png "9.3 consulta 1") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.png "9.3 consulta 2") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.3%20concat.png "9.3 consulta 3") <br>
+
+```sql
+select * from HISTORICO_SALDO where SALDO is not null;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/IS%20NOT%20NULL.png "9.3 consulta 1") <br>
+
+```sql
+select * from PGT_PASSAGEM where SALDO_ANTERIOR<=80;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/PGT_PASSAGEM%20where%20SALDO_ANTERIOR30%20and%20SALDO_ANTERIOR80.png "9.3 consulta 2") <br>
+
+```sql
+select * from PGT_PASSAGEM where SALDO_ANTERIOR<=80;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/select%20NOME_PESSOA%20as%20Cliente%20COD_MODALIDADE%20as%20Atual%20modalidade%20CPF%20from%20PESSOA.png "9.3 consulta 3") <br>
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_1.png "9.4 consulta 1") <br>
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_2.png "9.4 consulta 2") <br>
