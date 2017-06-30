@@ -215,9 +215,22 @@ select NOME_PESSOA as Cliente, COD_MODALIDADE as "Atual modalidade", CPF from PE
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.3/select%20NOME_PESSOA%20as%20Cliente%20COD_MODALIDADE%20as%20Atual%20modalidade%20CPF%20from%20PESSOA.png "9.3 consulta 3") <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_1.png "9.4 consulta 1") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_2.png "9.4 consulta 2") <br>
-![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/9.4_3.png "9.4 consulta 3") <br>
+
+```sql
+select * from PESSOA where NOME_PESSOA like 'L%';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas - Prints/Consultas 9.4/select from PESSOA where NOME_PESSOA like 'L%25'.png "9.4 consulta 1") <br>
+
+```sql
+select * from PESSOA where NOME_PESSOA ilike '%La%';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.4/select%20from%20PESSOA%20where%20NOME_PESSOA%20ilike%20'%25La%25'.png "9.4 consulta 2") <br>
+
+```sql
+select * from PESSOA where NOME_PESSOA like '_a%';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.4/select%20from%20PESSOA%20where%20NOME_PESSOA%20like%20'_a%25'.png "9.4 consulta 3") <br>
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
