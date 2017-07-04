@@ -117,13 +117,6 @@ cotidianas.
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-SIGAM ESSE EXEMPLO GUYS:
-```sql
-SELECT * FROM PESSOA;
-SELECT cod_cartao FROM CARTAO;
-ETC (Olhem no text do readme);
-```
-
 ```sql
 SELECT * FROM PESSOA;
 ``` 
@@ -221,10 +214,53 @@ select * from PESSOA where NOME_PESSOA like '_a%';
 ``` 
 ![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.4/select%20from%20PESSOA%20where%20NOME_PESSOA%20like%20'_a%25'.png "9.4 consulta 3") <br>
 
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
-        Entrega até este ponto em: (Data a ser definida)
-#### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
+```sql
+UPDATE PESSOA SET cod_modalidade = 1 WHERE data_nasc < '01-01-1999' AND cod_modalidade = 2;
+SELECT * FROM PESSOA WHERE data_nasc < '01-01-1999';
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.5/9.5.1.PNG "9.5")
+
+```sql
+UPDATE MODALIDADE SET nome_modalidade = 'Estudante Gratuito' WHERE cod_modalidade = 3;
+SELECT cod_modalidade CODIGO, nome_modalidade MODALIDADE FROM MODALIDADE;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.5/9.5.2.PNG "9.5")
+
+```sql
+UPDATE PESSOA SET nome_pessoa = 'André Martins', data_nasc = '05-05-1997', cod_modalidade = 2 WHERE cod_pessoa = 1;
+SELECT * FROM PESSOA WHERE cod_pessoa = 1;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.5/9.5.3.PNG "9.5")
+
+```sql
+DELETE FROM HISTORICO_SALDO hs WHERE hs.saldo > 50;
+SELECT * FROM HISTORICO_SALDO;
+``` 
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.5/9.5.4.PNG "9.5")
+
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO<br>
+
+```sql
+SELECT P.COD_PESSOA, P.NOME_PESSOA NOME, M.NOME_MODALIDADE MODALIDADE 
+	FROM PESSOA P INNER JOIN MODALIDADE M 
+	ON P.COD_MODALIDADE = M.COD_MODALIDADE
+	ORDER BY NOME ASC;
+```
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.6/9.6.1.png "9.6")
+
+```sql
+SELECT P.NOME_PESSOA NOME, C.LINHA LINHA, PP.SALDO_ANTERIOR SALDO, PP.DATA DATA_PGT
+	FROM PESSOA P INNER JOIN PGT_PASSAGEM PP
+	ON P.COD_PESSOA = PP.COD_PESSOA
+	INNER JOIN LOCAL_BUS LB
+	ON PP.COD_LOCALIZACAO = LB.COD_LOCALIZACAO
+	INNER JOIN COLETIVO C
+	ON C.COD_COLETIVO = LB.COD_COLETIVO;
+```
+![Alt text](https://github.com/Transpoint/TranspointProject/blob/master/Consultas%20-%20Prints/Consultas%209.6/9.6.2.png "9.6")
+
+#### 9.7	CONSULTAS COM GROUP BY<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
