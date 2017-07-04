@@ -15,21 +15,11 @@ Este documento contém a especificação do projeto do banco de dados Transpoint
 <br>e com a motivação de facilitar o uso do transporte público. <br>
 
 ### 3.MINI-MUNDO<br>
-&emsp; Hoje em dia para efetuar uma recarga no cartão da rede Transcol é preciso deslocar-se até um dos centros de venda e enfrentar filas. Além disso, para grande parte dos usuários do sistema Transcol, sair de casa e utilizar dos coletivos para deslocar-se até outro ponto é de difícil planejamento, pois por diversas vezes os horários não são seguidos corretamente, seja por decorrência do trânsito ou devido a outras ocorrências. Assim, torna-se complicado planejar-se de uma maneira mais eficiente. <br><br>
-&emsp; O TransPoint vem com as seguintes ideias para lidar com esses problemas:
-<ul>
-   <li> 
-      Oferecer a facilidade de reunir todas as informações do usuário, consultar seu saldo de passagens e categoria de usuário, recarga diretamente pelo aplicativo, checar horários e localização aproximada dos coletivos. Assim, os usuários podem planejar-se e poupar tempo, no momento que não é mais necessário deslocar-se para um guichê de vendas.
-   </li>
-   <li> 
-      Pagar passagem via NFC, com objetivo de oferecer outra forma de pagar além do cartão de passagem e também de trazer a tona o uso dessa tecnologia para pagamentos.
-   </li>
-   <li> 
-      Itinerários dos ônibus de modo mais visual ao exibir as rotas em um mapa, ao invés de apenas os nomes das vias que o coletivo passa.
-   </li>
-   <li>Previsões aproximadas de tempo de chegada de um ônibus em determinado ponto.</li>
-</ul><br>
-&emsp; O planejamento e otimização de tempo é um dos principais pontos que o aplicativo busca atender, pois será possível planejar melhor o tempo com as previsões e agilidade ao efetuar recargas online. Além de também servir como um incentivo para a utilização de ônibus.
+&emsp; A ideia do projeto se baseia no pagamento de passagem do sistema Transcol via celular e na efetuação de recarga no mesmo, utilizando as coordenadas do ônibus toda vez que uma pessoa efetua um pagamento pelo aplicativo. <br>
+&emsp; Uma pessoa tem um cadastro onde consta seu nome, CPF e data de nascimento. Ela pode se enquadrar em 4 modalidades distintas: gratuidade, estudante, normal e idoso. <br>
+&emsp; No sistema temos o histórico do saldo de cada usuário, monitorando as datas de liberação da próxima compra, baseando na data da última compra e o saldo atual. Ao realizar o pagamento de uma passagem, é salvo o saldo anterior e a data do pagamento dessa passagem. <br>
+&emsp; Aliado ao pagamento da passagem, o local do ônibus onde foi constatado o pagamento também é coletado, sendo necessário assim identificar qual coletivo em questão, pela sua linha e seu local de partida e destino. <br>
+&emsp; Para o recarregamento do saldo diretamente do celular se faz necessário do cadastramento do cartão, um cartão possui bandeira, nome e CPF (não sendo necessariamente o mesmo da pessoa cadastrada no sistema), CVV e número do cartão. <br><br>
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
